@@ -1,0 +1,50 @@
+.ListTask {
+	margin-bottom: 24px;
+
+}
+
+.Task:hover {
+	color: #2D70FD;
+
+}
+
+.Task {
+	color: #001747;
+	cursor: pointer;
+}
+
+.InputCheckBox {
+	opacity: 0;
+	position:absolute;
+	z-index: -1;
+
+}
+
+.InputCheckBox+.Task {
+	align-items: center;
+	display: inline-flex;
+
+}
+
+.InputCheckBox+.Task::before {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: 50%;
+
+	border: 1px solid #eee;
+	border-radius: 50%;
+	content: '';
+	display: inline-block;
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 32px;
+	margin-right: 25px;
+	width: 32px;
+
+}
+
+.InputCheckBox:checked+.Task::before {
+	background-color: #00D8A7;
+	background-image: url('./ok.svg');
+	border: 0;
+}
