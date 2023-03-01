@@ -1,0 +1,20 @@
+.container {
+	background: #f5f9ff;
+	color: var(--alpha);
+	display: flex;
+	flex-direction: column;
+	font-family: var(--next-font);
+	gap: var(--layout-spacing);
+	min-height: 100vh;
+	padding-block: 5vh 1rem;
+	padding-inline: var(--space-80);
+}
+
+.container > * {
+	margin-inline: auto;
+	width: min(100%, var(--content-width));
+}
+
+.container > footer {
+	margin-top: auto;
+}

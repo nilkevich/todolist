@@ -1,0 +1,31 @@
+.BottomSection {
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 169px;
+	padding-top: 24px;
+	width: 600px;
+
+}
+
+.ItemsAmount {
+	color: #B1BACB;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.BtnClearAll {
+	background-color: transparent;
+	border: 0;
+	color: #B1BACB;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 20px;
+
+}
+
+.BtnClearAll:hover {
+	color: #2D70FD;
+	cursor: pointer;
+
+}
