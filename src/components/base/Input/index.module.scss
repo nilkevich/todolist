@@ -1,0 +1,25 @@
+.Form {
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 0 0 1px 1px #eee;
+	height: 58px;
+	margin-bottom: 48px;
+	width: 600px;
+}
+
+.InputNewTask {
+	border: 0;
+	font-size: 16px;
+	height: 58px;
+	margin-right: 16px;
+	padding: 20px;
+	width: 500px;
+}
+
+.BtnAdd {
+	background-color: #2d70fd;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	padding: 12px 24px;
+}
