@@ -1,10 +1,8 @@
-import { TodoList } from '@/shared/TodoList';
+import TodoList from './TodoList/TodoList';
 
 const HomePage = () => (
 	<main>
-		<div> 
-			<TodoList />
-		</div>
+		<TodoList />
 	</main>
 );
 
